@@ -13,10 +13,6 @@ Use scrapping to find the student's grades
 - Python
 - Librairies: BeautifulSoup
 
-## Author
-
-**Guillaume CAGNIARD**
-
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
