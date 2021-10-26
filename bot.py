@@ -19,7 +19,7 @@ with open("config.json") as file:
 
 @client.event
 async def on_ready():
-    print("I'm ready ! What can I do to help you ?")
+    print("Rachel3000 is ready")
 
 URL = "https://ypareo.purple-campus.com/purple/index.php"
 LOGIN_ROUTE = "/authentication"
