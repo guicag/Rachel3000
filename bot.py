@@ -60,8 +60,7 @@ async def search_moyenne():
         with open('data.json', 'r') as file:
             data = json.load(file)
             moyenneOlder = data['note']
-
-        response = requests.get("http://localhost/Projet-Web/view/indexView.php")
+            
         soup = BeautifulSoup(s.get(URL + BULLETIN_ROUTE).text, 'html.parser')
         
         moyenneNow = soup.find('tfoot', {'class': 'table-foot'}).find('td', {'class': 'moyenneApp'}).text.replace(' ', '')
