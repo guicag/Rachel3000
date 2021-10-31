@@ -1,6 +1,6 @@
 {
     "token": "your token",
-    "channelID": "your channel ID",
-    "Identifiant_YPAREO": "your login YAPERO",
-    "Password_YPAREO": "your password YAPERO"
+    "channelID": "your channelID",
+    "Identifiant_YPAREO": "your ID YAPERO",
+    "Password_YPAREO": "Your password YAPERO"
 }

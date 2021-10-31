@@ -82,7 +82,7 @@ async def search_moyenne():
                 json.dump(data, file)
 
         print("MoyenneNow = " + str(moyenneNow) + " ; MoyenneOlder = " + str(moyenneOlder))
-        await asyncio.sleep(120)
+        await asyncio.sleep(60)
 
 
 client.loop.create_task(search_moyenne())

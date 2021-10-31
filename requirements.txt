@@ -1,0 +1,4 @@
+asyncio~=3.4.3
+discord.py[voice]~=1.6
+requests
+beautifulsoup4~=4.8.1
