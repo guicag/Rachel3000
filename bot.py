@@ -81,7 +81,7 @@ async def search_moyenne():
             with open('data.json', 'w') as file:
                 json.dump(data, file)
 
-        print("MoyenneNow = " + str(moyenneNow) + " ; MoyenneOlder = " + str(moyenneOlder))
+        print("MoyenneNow = " + str(moyenneNow) + " ; MoyenneOld = " + str(moyenneOlder))
         await asyncio.sleep(60)
 
 
